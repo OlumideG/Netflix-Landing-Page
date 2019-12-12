@@ -1,0 +1,266 @@
+/* body {
+	background-image: url("https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg ");
+        background-repeat:no-repeat;
+       background-size:cover;
+       margin: 0;
+       padding: 0;
+       height: 100vh;
+} */
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://www.myanmore.com/wp-content/uploads/2019/05/netflix-background-9.jpg ");
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.logo{
+    margin-top: 10px;
+    margin-left:10px;
+
+}
+
+.top-button{
+    /* float:left; */
+    position: absolute;
+    padding: 10px;
+    background-color:#e50914;
+    margin-left: 1200px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    font-family: Sans-serif;
+    opacity: 0.8;
+    border:0;
+    border-radius: 2px;
+}
+
+.top-button:hover{
+    opacity: 1;
+    /* letter-spacing: 3px; */
+}
+
+.container{
+    margin-top: 145px;
+    margin-left: 80px;
+}
+
+ p{
+    margin: 0;
+} 
+
+.big-text{
+    font-size: 70px;
+    color:#fff;
+    font-family: Helvetica;
+    font-weight: 100;
+    text-align: center;
+    /* letter-spacing: 2px; */
+}
+
+.small-text{
+    font-size: 30px;
+    color:#fff;
+    font-family: Helvetica; 
+    margin-left: 500px;
+    
+}
+
+.try-button{
+    position: absolute;
+    padding: 20px;
+    background-color:#e50914;
+    margin-left: 600px; 
+    margin-top: 20px;
+    font-weight: bold;
+    color: white;
+    font-size: 35px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    border:0;
+    border-radius: 2px;
+}
+
+.try-button:hover{
+    opacity: 1;
+    /* letter-spacing: 3px; */
+}
+
+/* .contain{
+    background-image: url("./black.png");
+    background-color: rgba(0, 0, 0, 1);
+    width: auto;
+    height: 700px;
+} */
+.container-two{
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 200px;
+    position: absolute;
+    width: 1800px;
+    height: 420px;
+    /* margin-left: 80px; */
+}
+
+.border{
+    background-color: grey;
+    height: 5px;
+    width:1800px;
+    /* margin-top: 30px; */
+}
+
+.big-text-two{
+    /* position: absolute; */
+  color:#fff;
+  font-size: 50px;
+  font-family: Helvetica;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 210px;
+  margin-top:90px;
+}
+
+.small-text-two{
+    font-size: 25px;
+    color:#fff;
+    font-family: Helvetica; 
+    text-align: left;
+    margin-top:30px;
+    margin-left:210px;
+    /* margin-left: 500px;   */
+}
+
+.second-try-button{
+    /* position: absolute; */
+    padding: 10px;
+    background-color:#070606;
+    margin-left: 210px; 
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    border:0;
+    border: 2px solid white;
+    border-radius: 2px; 
+    border-style: solid;
+    border-color: white;
+}
+
+.tv-image{
+    position: absolute;
+    margin-left:700px ;
+    margin-top: 70px;
+     top: 0;
+    
+}
+.tv1-image{
+    position: absolute;
+    margin-left:190px ;
+    margin-top: 70px;
+     top: 0;
+    
+}
+
+.container-three{
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 620px;
+    position: absolute;
+    width: 1800px;
+    height: 420px;
+}
+
+.big-text-three{
+    /* position: absolute; */
+  color:#fff;
+  font-size: 50px;
+  font-family: Helvetica;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 800px;
+  margin-top:90px;
+}
+
+.small-text-three{
+    font-size: 25px;
+    color:#fff;
+    font-family: Helvetica; 
+    text-align: left;
+    margin-top:30px;
+    margin-left:800px;
+    /* margin-left: 500px;   */
+}
+
+.third-try-button{
+    /* position: absolute; */
+    padding: 10px;
+    background-color:#070606;
+    margin-left: 800px; 
+    margin-top: 10px;
+    font-weight: bold;
+    padding-left: 20px ;
+    padding-right: 20px ;
+    color: white;
+    font-size: 25px;
+    font-family: Helvetica;
+    opacity: 0.9;
+    /* border:0; */
+    border: 2px solid white;
+    border-radius: 2px; 
+    border-style: solid;
+    border-color: white;
+}
+
+.container-four{
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 1040px;
+    position: absolute;
+    width: 1800px;
+    height: 420px;
+}
+
+.tv2-image{
+    position: absolute;
+    margin-left:900px ;
+    margin-top: 70px;
+     top: 0;  
+}
+
+.container-five{
+    background-color: rgba(0, 0, 0, 1);
+    margin-top: 1460px;
+    position: absolute;
+    width: 1800px;
+    height: 720px;
+}
+
+
+.big-text-four{
+    /* position: absolute; */
+  color:#fff;
+  font-size: 50px;
+  font-family: Helvetica;
+  font-weight: 100;
+  text-align: left;
+  margin-left: 450px;
+  margin-top:60px;
+}
+
+/* .faq1{
+    margin-top:10px;
+    background-color: grey;
+     padding-right: 5px;
+    /* padding:8px; */
+    margin-left: 450px;
+    color:#fff;
+  font-size: 30px;
+  font-family: Helvetica;
+  font-weight: 100;
+
+  
+} */
